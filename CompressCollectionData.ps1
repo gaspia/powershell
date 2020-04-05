@@ -1,4 +1,4 @@
-"
+#
 #Script to zip backup NICE Automation Finder capture files
 #
 $source = <Path to root dir>
