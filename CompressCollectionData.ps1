@@ -1,4 +1,7 @@
-﻿$source = "D:\UserData\z003m43e"
+"
+#Script to zip backup NICE Automation Finder capture files
+#
+$source = <Path to root dir>
 $fileDate = $(get-date).AddDays(-1)
 
 write-host "Compressing all JSON files from NICE clients (AutomationFinder) folders, created on " $fileDate.AddDays(-1).ToString("yyyy-MM-dd")
